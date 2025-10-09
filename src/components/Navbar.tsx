@@ -1,8 +1,8 @@
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import { useState } from 'react';
-import logoLight from '/home/project/src/components/63e54f69-5c1f-4b54-b18c-a4c6593d5380.png';
-import logoDark from '/home/project/src/components/305d4988-8b34-4b2a-adc1-90e272e5b73e.png';
+import logoLight from './63e54f69-5c1f-4b54-b18c-a4c6593d5380.png';
+import logoDark from './305d4988-8b34-4b2a-adc1-90e272e5b73e.png';
 
 interface NavbarProps {
   currentTab: string;
