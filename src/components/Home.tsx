@@ -2,8 +2,8 @@ import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
 
 export function Home() {
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: 'https://github.com' },
-    { icon: Twitter, label: 'Twitter/X', href: 'https://twitter.com' }
+    { icon: Github, label: 'GitHub', href: 'https://github.com/RkCode2025' },
+    { icon: Twitter, label: 'Twitter/X', href: 'https://twitter.com/Rakshit5352535' }
   ];
 
   return (
@@ -24,7 +24,7 @@ export function Home() {
             </div>
 
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
-              Currently exploring machine learning, full-stack development, and emerging technologies.
+              Currently exploring machine learning, deep learning and NLP.
             </p>
 
             <div className="flex items-center justify-center gap-4 pt-4">
