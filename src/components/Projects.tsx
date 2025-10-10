@@ -7,7 +7,7 @@ interface Project {
   tags: string[];
   githubUrl?: string;
   demoUrl?: string;
-  icon?: 'book' | 'cpu' | 'database';
+  icon?: 'book' | 'cpu' | 'database'| 'binary';
 }
 
 export function Projects() {
@@ -15,7 +15,7 @@ export function Projects() {
     {
   title: 'MLP for Handwritten Digit Recognition from Scratch',
   description:
-    'A clean and simple implementation of a Multilayer Perceptron (MLP) from scratch using NumPy. Demonstrates how a feedforward neural network can learn to recognize handwritten digits (MNIST) through forward propagation, backpropagation, and weight updates without relying on high-level frameworks.',
+    'Implementation of a Multilayer Perceptron (MLP) from scratch using NumPy. Demonstrating how feedforward neural network can learn to recognize handwritten digits (MNIST) through forward propagation',
   tags: ['Python', 'NumPy', 'Machine Learning', 'Neural Networks', 'MNIST'],
   githubUrl: 'https://github.com/RkCode2025/Multilayer-Perceptron-Implementation-from-Scratch',
   icon: 'binary',
