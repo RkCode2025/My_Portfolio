@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, ExternalLink, BookOpen, Cpu, Database } from 'lucide-react';
+import { Github, ExternalLink, BookOpen, Cpu, Database, binary } from 'lucide-react';
 
 interface Project {
   title: string;
