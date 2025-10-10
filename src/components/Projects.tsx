@@ -74,7 +74,7 @@ export function Projects() {
       case 'book':
         return BookOpen;
       case 'binary':
-        return Binary;,
+        return Binary;
       case 'cpu':
         return Cpu;
       case 'database':
