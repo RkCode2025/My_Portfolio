@@ -13,6 +13,14 @@ interface Project {
 export function Projects() {
   const projects: Project[] = [
     {
+  title: 'MLP for Handwritten Digit Recognition from Scratch',
+  description:
+    'A clean and simple implementation of a Multilayer Perceptron (MLP) from scratch using NumPy. Demonstrates how a feedforward neural network can learn to recognize handwritten digits (MNIST) through forward propagation, backpropagation, and weight updates without relying on high-level frameworks.',
+  tags: ['Python', 'NumPy', 'Machine Learning', 'Neural Networks', 'MNIST'],
+  githubUrl: 'https://github.com/RkCode2025/Multilayer-Perceptron-Implementation-from-Scratch',
+  icon: 'binary',
+    },
+    {
       title: 'Perceptron Implementation using Scikit-learn and NumPy',
       description:
         'A clean and simple implementation of the Perceptron algorithm from scratch using NumPy and Scikit-learn. Demonstrates how linear classifiers learn decision boundaries through iterative weight updates.',
