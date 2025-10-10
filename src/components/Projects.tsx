@@ -10,6 +10,13 @@ interface Project {
   icon?: 'book' | 'cpu' | 'database'| 'binary';
 }
 
+const iconMap = {
+  book: BookOpen,
+  cpu: Cpu,
+  database: Database,
+  binary: Binary,
+};
+
 export function Projects() {
   const projects: Project[] = [
     {
