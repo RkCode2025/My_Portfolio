@@ -36,7 +36,7 @@ export function Projects() {
       icon: 'cpu',
     },
     {
-      title: 'Linear Regression: Step-by-Step Implementation with Gradient Descent',
+      title: 'Linear Regression: Step-by-Step Implementation',
       description:
         'Detailed mathematical and programmatic breakdown of Linear Regression using Gradient Descent. Includes derivations, visualizations, and practical insights into model optimization.',
       tags: ['Python', 'NumPy', 'Mathematics', 'Regression'],
@@ -60,7 +60,7 @@ export function Projects() {
       icon: 'book',
     },
     {
-      title: 'Adaline from Scratch (by Machine Learning with PyTorch and Scikit-Learn)',
+      title: 'Adaline from Scratch (by ML with PyTorch and Scikit-Learn)',
       description:
         'Implementation of the Adaline (Adaptive Linear Neuron) algorithm completely from scratch, demonstrating concepts of gradient descent and continuous value optimization.',
       tags: ['Python', 'NumPy', 'PyTorch', 'Deep Learning'],
@@ -73,6 +73,8 @@ export function Projects() {
     switch (icon) {
       case 'book':
         return BookOpen;
+      case 'binary':
+        return Binary;,
       case 'cpu':
         return Cpu;
       case 'database':
