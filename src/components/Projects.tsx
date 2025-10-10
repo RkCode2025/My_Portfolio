@@ -24,7 +24,7 @@ export function Projects() {
   description:
     'Implementation of a Multilayer Perceptron (MLP) from scratch using NumPy. Demonstrating how feedforward neural network can learn to recognize handwritten digits (MNIST) through forward propagation',
   tags: ['Python', 'NumPy', 'Machine Learning', 'Neural Networks', 'MNIST'],
-  githubUrl: 'https://github.com/RkCode2025/Multilayer-Perceptron-Implementation-from-Scratch',
+  githubUrl: 'https://github.com/RkCode2025/Hand_Digit_Recognition_with_Multilayer_Perceptron',
   icon: 'binary',
     },
     {
