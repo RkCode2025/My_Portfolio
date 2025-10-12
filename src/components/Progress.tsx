@@ -35,11 +35,11 @@ export function Progress() {
       icon: 'brain',
     },
     {
-      title: 'ML with PyTorch and Scikit-Learn (first 9 of 19 chapters)',
+      title: 'ML with PyTorch and Scikit-Learn (first 11 of 19 chapters)',
       description:
-        'Completed the first 9 chapters, covering core ML concepts with hands-on PyTorch and Scikit-Learn implementations. Remaining chapters are still in progress.',
+        'Completed the first 11 chapters, covering core ML concepts with hands-on PyTorch and Scikit-Learn implementations. Remaining chapters are still in progress.',
       status: 'in-progress',
-      progress: 47,
+      progress: 58,
       icon: 'brain',
     },
   ];
