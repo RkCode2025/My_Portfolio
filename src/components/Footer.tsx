@@ -3,7 +3,7 @@ import { Github, Twitter, Linkedin, Mail, Heart } from 'lucide-react';
 export function Footer() {
   const socialLinks = [
     { icon: Github, label: 'GitHub', href: 'https://github.com/RkCode2025' },
-    { icon: Twitter, label: 'Twitter/X', href: 'https://twitter.com/Rakshit5352535' }
+    { icon: Twitter, label: 'Twitter/X', href: 'https://twitter.com/Syphax_2022' }
   ];
 
   return (
